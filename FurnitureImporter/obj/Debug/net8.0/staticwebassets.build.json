@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "Hash": "jdQO53VSjITCyrV5qrNoEEHxzSUR/9/VBMDZLkfGyUg=",
+  "Source": "FurnitureImporter",
+  "BasePath": "_content/FurnitureImporter",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\Frontend\\Frontend.esproj",
+      "Version": 2,
+      "Source": "Frontend",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [
+    {
+      "Name": "FurnitureImporter\\wwwroot",
+      "Source": "FurnitureImporter",
+      "ContentRoot": "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporter\\wwwroot\\",
+      "BasePath": "_content/FurnitureImporter",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

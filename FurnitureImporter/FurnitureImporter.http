@@ -1,0 +1,6 @@
+@FurnitureImporter_HostAddress = http://localhost:5183
+
+GET {{FurnitureImporter_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

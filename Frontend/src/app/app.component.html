@@ -1,0 +1,21 @@
+<select id="furnitureSelect" (change)="onFurnitureSelect()">
+  <option> --- Select furniture type --- </option>
+  <option *ngFor="let furniture of furnitures" [value]="furniture.id">
+    {{ furniture.name + ' - ' + furniture.description }}
+  </option>
+</select>
+
+<select id="customerSelect" (change)="onCustomerSelect()">
+  <option [value]="null"> --- Select customer --- </option>
+  <option *ngFor="let customer of customers" [value]="customer.id">
+    {{ customer.firstName + ' ' + customer.lastName }}
+  </option>
+</select>
+
+<button (click)="getPrice()">
+  Calculate Discounted Price
+</button>
+
+<div *ngIf="discountedPrice">
+  {{ discountedPrice }}
+</div>

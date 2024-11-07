@@ -1,0 +1,595 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporter\\FurnitureImporter.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\Frontend\\Frontend.esproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\Frontend\\Frontend.esproj",
+        "projectName": "Frontend",
+        "projectPath": "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\Frontend\\Frontend.esproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporter.Adapters.DataAccess\\FurnitureImporter.Adapters.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporter.Adapters.DataAccess\\FurnitureImporter.Adapters.DataAccess.csproj",
+        "projectName": "FurnitureImporter.Adapters.DataAccess",
+        "projectPath": "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporter.Adapters.DataAccess\\FurnitureImporter.Adapters.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Virgil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporter.Adapters.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Virgil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporter.Ports.DataAccess\\FurnitureImporter.Ports.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporter.Ports.DataAccess\\FurnitureImporter.Ports.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporter.Adapters.Web\\FurnitureImporter.Adapters.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporter.Adapters.Web\\FurnitureImporter.Adapters.Web.csproj",
+        "projectName": "FurnitureImporter.Adapters.Web",
+        "projectPath": "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporter.Adapters.Web\\FurnitureImporter.Adapters.Web.csproj",
+        "packagesPath": "C:\\Users\\Virgil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporter.Adapters.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Virgil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporter.Ports.Web\\FurnitureImporter.Ports.Web.csproj": {
+                "projectPath": "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporter.Ports.Web\\FurnitureImporter.Ports.Web.csproj"
+              },
+              "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporterDomain\\FurnitureImporter.Domain.csproj": {
+                "projectPath": "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporterDomain\\FurnitureImporter.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporter.Ports.DataAccess\\FurnitureImporter.Ports.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporter.Ports.DataAccess\\FurnitureImporter.Ports.DataAccess.csproj",
+        "projectName": "FurnitureImporter.Ports.DataAccess",
+        "projectPath": "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporter.Ports.DataAccess\\FurnitureImporter.Ports.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Virgil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporter.Ports.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Virgil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporterEntities\\FurnitureImporter.Entities.csproj": {
+                "projectPath": "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporterEntities\\FurnitureImporter.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporter.Ports.Web\\FurnitureImporter.Ports.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporter.Ports.Web\\FurnitureImporter.Ports.Web.csproj",
+        "projectName": "FurnitureImporter.Ports.Web",
+        "projectPath": "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporter.Ports.Web\\FurnitureImporter.Ports.Web.csproj",
+        "packagesPath": "C:\\Users\\Virgil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporter.Ports.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Virgil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporter.Root\\FurnitureImporter.Root.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporter.Root\\FurnitureImporter.Root.csproj",
+        "projectName": "FurnitureImporter.Root",
+        "projectPath": "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporter.Root\\FurnitureImporter.Root.csproj",
+        "packagesPath": "C:\\Users\\Virgil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporter.Root\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Virgil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporter.Adapters.DataAccess\\FurnitureImporter.Adapters.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporter.Adapters.DataAccess\\FurnitureImporter.Adapters.DataAccess.csproj"
+              },
+              "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporter.Adapters.Web\\FurnitureImporter.Adapters.Web.csproj": {
+                "projectPath": "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporter.Adapters.Web\\FurnitureImporter.Adapters.Web.csproj"
+              },
+              "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporterDomain\\FurnitureImporter.Domain.csproj": {
+                "projectPath": "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporterDomain\\FurnitureImporter.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporterDomain\\FurnitureImporter.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporterDomain\\FurnitureImporter.Domain.csproj",
+        "projectName": "FurnitureImporter.Domain",
+        "projectPath": "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporterDomain\\FurnitureImporter.Domain.csproj",
+        "packagesPath": "C:\\Users\\Virgil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporterDomain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Virgil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporter.Ports.DataAccess\\FurnitureImporter.Ports.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporter.Ports.DataAccess\\FurnitureImporter.Ports.DataAccess.csproj"
+              },
+              "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporterEntities\\FurnitureImporter.Entities.csproj": {
+                "projectPath": "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporterEntities\\FurnitureImporter.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporterEntities\\FurnitureImporter.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporterEntities\\FurnitureImporter.Entities.csproj",
+        "projectName": "FurnitureImporter.Entities",
+        "projectPath": "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporterEntities\\FurnitureImporter.Entities.csproj",
+        "packagesPath": "C:\\Users\\Virgil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporterEntities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Virgil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporter\\FurnitureImporter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporter\\FurnitureImporter.csproj",
+        "projectName": "FurnitureImporter",
+        "projectPath": "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporter\\FurnitureImporter.csproj",
+        "packagesPath": "C:\\Users\\Virgil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporter\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Virgil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\Frontend\\Frontend.esproj": {
+                "projectPath": "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\Frontend\\Frontend.esproj"
+              },
+              "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporter.Root\\FurnitureImporter.Root.csproj": {
+                "projectPath": "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporter.Root\\FurnitureImporter.Root.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

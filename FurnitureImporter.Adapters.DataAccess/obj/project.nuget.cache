@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "sf8z3UD0ygI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Virgil\\Desktop\\Fu\\FurnitureImporter\\FurnitureImporter.Adapters.DataAccess\\FurnitureImporter.Adapters.DataAccess.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Virgil\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

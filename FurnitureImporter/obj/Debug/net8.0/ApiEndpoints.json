@@ -1,0 +1,93 @@
+[
+  {
+    "ContainingType": "FurnitureImporter.Controllers.FurnitureImporterController",
+    "Method": "GetDiscountePrice",
+    "RelativePath": "FurnitureImporter/{custumerId}/GetDiscountedPriece/{furnitureId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "custumerId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "furnitureId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Double",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FurnitureImporter.Controllers.FurnitureImporterController",
+    "Method": "GetAllCustumers",
+    "RelativePath": "FurnitureImporter/GetAllCustumers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[FurnitureImporter.Ports.Web.Models.Response.Customer, FurnitureImporter.Ports.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FurnitureImporter.Controllers.FurnitureImporterController",
+    "Method": "GetAllFurnitures",
+    "RelativePath": "FurnitureImporter/GetAllFurnitures",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[FurnitureImporter.Ports.Web.Models.Response.Furniture, FurnitureImporter.Ports.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FurnitureImporter.Controllers.FurnitureImporterController",
+    "Method": "Get",
+    "RelativePath": "FurnitureImporter/Test",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
